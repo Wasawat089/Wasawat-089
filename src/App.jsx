@@ -12,22 +12,22 @@ function App() {
       <div className="leftPort">
         <ImageProfile image="/src/assets/react.svg" />
 
-        <Title title="Thanadet Kaewsri (Matt)">
-          <h3>ตำแหน่ง : Frontend</h3>
+        <Title title="Wasawat  Pinthong (Junior)">
+          <h3>ตำแหน่ง : IT</h3>
         </Title>
 
         <Title title="Contact">
      
-          <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("1994/07/01").format("D MMM YYYY")}</p>
+          
+          <p>วันเกิด: {moment("2002/12/19").format("D MMM YYYY")}</p>
           <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
+            Tel : +66838354670
           </p>
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
           </button>
-          <p>Email : mattssru@gmail.com</p>
-          <p>www.mattssru@gmail.com</p>
+          <p>Email : s64122202089@ssru.ac.th</p>
+         
         </Title>
     
         <Title title="Education">
@@ -38,18 +38,22 @@ function App() {
 
       <div className="rightPort">
         <Title title="Profile">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas natus soluta debitis nihil placeat, molestiae quae distinctio. Corporis dolores sit similique vitae dignissimos rerum saepe dolorem laboriosam rem impedit.</p>
+          <p>กระผมนาย วสวัตติ์ ปิ่นทอง ขณะนี้กำลังศึกษาอยู่ที่ มหาวิทยาลัยราชภัฏสวนสุนันทา 
+ชั้นปีที่ 3 สาขา เทคโนโลยีสารสนเทศ ในขณะนี้ผมยังไม่เคยมีประสบการณ์ในการทำงานในด้านสาขาไอทีแต่ผมยินดีที่จะเรียนรู้และพัฒนาทักษะและเก็บเกี่ยวประสบการณ์ในอนาคตครับ</p>
         </Title>
 
         <Title title="Work Experience">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis eligendi cumque, laborum dolore error at, excepturi eum distinctio iste facere obcaecati natus impedit eaque eveniet nulla? Cupiditate, blanditiis in?</p>
+          <p>2562
+ทำธุรกิจออนไลน์กับคนรู้จัก
+เคยมีโอากาศได้ขายของออนไลน์ ทำผังข้อมูล Excel เกี่ยวกับข้อมูลสินค้า และทำหน้าที่เป็นแอดมินเพจ
+</p>
         </Title>
 
         <Title title="Skills">
           <p>HTML / CSS / JS</p>
           <p>React.js</p>
           <p>Next.js</p>
-          <p>Vue.js</p>
+          <p>VS Code</p>
           <p>Git</p>
         </Title>
       </div>
